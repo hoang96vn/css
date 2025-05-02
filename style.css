@@ -39,6 +39,7 @@ position: fixed;
   overflow: hidden;
   white-space: nowrap;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+   border: 3px solid #0000FF;
 }
 
 .slide-banner p {
@@ -66,13 +67,15 @@ position: fixed;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   z-index: 10;           /* Đảm bảo không bị che */
   overflow-y: auto;      /* Cuộn nếu nội dung dài */
+
 }
 .sidebar a {
   display: block;              /* xuống dòng */
-  padding: 8px 12px;           /* khoảng cách xung quanh text */
-  border-bottom: 1px solid #ccc; /* kẻ dòng ngang */
+  padding: 8px 12px; /* khoảng cách xung quanh text */
+  border: 2px solid #000000;
   text-decoration: none;
   color: #333;
+   background: linear-gradient(to bottom, #0000FF 0%, #FFFFFF 100%);
 }
 
 /* Bỏ đường kẻ cho link cuối nếu muốn */
