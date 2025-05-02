@@ -32,7 +32,7 @@ body {
 }
 
 .logo img {
-  width: 100%;
+  width: 200px;
   height: auto;      /* giữ tỉ lệ gốc của hình */
   object-fit: contain; 
 }
