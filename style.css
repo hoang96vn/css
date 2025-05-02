@@ -33,10 +33,9 @@ body {
 }
 
 .logo img {
-  padding: 5px;
-  height: 200px;
-  width: 200px;
-position: fixed; 
+  width: 100%;
+  height: auto;      /* giữ tỉ lệ gốc của hình */
+  object-fit: contain; 
 }
 .sidebar {
   position: fixed;       /* Giữ cố định khi cuộn trang */
