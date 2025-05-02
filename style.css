@@ -54,14 +54,17 @@ body {
 }
 
 .sidebar {
-  position: fixed;
+  position: fixed;       /* Giữ cố định khi cuộn trang */
+  top: 10px;             /* Cách đỉnh trang 10px */
   left: 0;
-  top: 100px;
   width: 200px;
   background: #f3f3f3;
   padding: 10px;
   border-right: 1px solid #ccc;
-  height: calc(100% - 100px);
+  height: calc(100% - 20px); /* Tính chiều cao trừ khoảng cách top và bottom */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;           /* Đảm bảo không bị che */
+  overflow-y: auto;      /* Cuộn nếu nội dung dài */
 }
 .sidebar a {
   display: block;              /* xuống dòng */
