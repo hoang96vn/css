@@ -147,6 +147,8 @@ footer {
   100% { transform: translateY(40px); opacity: 0; }
 }
 .header {
+    display: flex;            /* Quan trọng: đặt flex để các phần tử nằm ngang */
+  background: linear-gradient(to bottom, #87CEFA, #00BFFF);
   align-items: center;
   padding: 2px;
    border: 1px solid;
