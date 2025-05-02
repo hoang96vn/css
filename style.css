@@ -47,18 +47,17 @@ body {
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 .logo {
-  left: 0px;
-  top: 10px;
   gap: 10px;
    border: 1px solid #000000;
   background: #FAF0E6;
-  z-index: 1000;
+ 
 }
 
 .logo img {
   width: 200px;
   height: 200px;      /* giữ tỉ lệ gốc của hình */
   object-fit: contain; 
+   z-index: 1000;
 }
 
 /*head*/
