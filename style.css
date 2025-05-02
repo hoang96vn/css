@@ -45,6 +45,7 @@ body {
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 .logo {
+  left: 0px;
   top: 10px;
   align-items: center;
   gap: 10px;
