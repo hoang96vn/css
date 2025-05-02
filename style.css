@@ -10,7 +10,7 @@ body {
 }
 
 .banner {
-  background: #fff0f6;
+  background: linear-gradient(to right, #e0f7ff, #ffffff);
   padding: 15px;
   text-align: center;
   font-size: 24px;
@@ -27,7 +27,8 @@ body {
 }
 
 .logo img {
-  height: 80px;
+  height: 100px;
+  margin-left: -10px; /* đẩy sát sidebar hơn nếu cần */
 }
 
 .slide-banner {
@@ -60,7 +61,14 @@ body {
   border-right: 1px solid #ccc;
   height: calc(100% - 100px);
 }
-
+.main-frame {
+  margin-left: 220px;
+  margin-top: 140px;
+  padding: 30px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
 .main-frame {
   margin-left: 220px;
   padding: 20px;
@@ -133,4 +141,14 @@ footer {
 @keyframes glitter-fall {
   0% { transform: translateY(0); opacity: 1; }
   100% { transform: translateY(40px); opacity: 0; }
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #e0f7ff, #ffffff);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
