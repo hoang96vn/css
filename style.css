@@ -75,7 +75,8 @@ body {
 }
 .sidebar a {
   top: 220px;
-  display: block;              /* xuống dòng */
+  display: block;
+  flex-direction: column;/* xuống dòng */
   padding: 8px 12px; /* khoảng cách xung quanh text */
   border: 1px solid #000000;
   border-radius: 5px; 
@@ -171,6 +172,7 @@ footer {
 }
 
 .main-content {
+  display:flex;
   margin-left: 220px; /* Dời sang phải tránh sidebar (nếu sidebar rộng 200px + padding) */
   margin-top: 10px;  /* Dời xuống tránh banner (nếu banner cao khoảng 100px) */
   padding: 20px;
