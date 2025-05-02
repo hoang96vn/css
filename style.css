@@ -31,7 +31,7 @@ body {
 }
 .excel-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 cột bằng nhau */
+  grid-template-columns: 1fr /* 3 cột bằng nhau */
   gap: 10px; /* khoảng cách giữa các ô */
   padding: 20px;
 }
