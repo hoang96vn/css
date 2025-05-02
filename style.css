@@ -28,6 +28,8 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+   border: 1px solid #000000;
+  background: #FAF0E6;
 }
 
 .logo img {
@@ -40,7 +42,7 @@ position: fixed;
   position: fixed;       /* Giữ cố định khi cuộn trang */
   top: 20px;             /* Cách đỉnh trang 10px */
   left: 0;
-  width: 200px;
+  width: 210px;
   background: #99FFFF;
   padding: 10px;
   padding-bottom: 20px;
@@ -157,6 +159,7 @@ footer {
   position: fixed;
   width: 100%;
   z-index: 1000;
+   border: 1px solid;
 }
 .main-content {
   margin-left: 220px; /* Dời sang phải tránh sidebar (nếu sidebar rộng 200px + padding) */
