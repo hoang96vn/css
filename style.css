@@ -63,12 +63,12 @@ body {
 /*head*/
 .sidebar {
  position: fixed;
-  top: 300px;
+  margin-top: 300px;
   left: 0;
   width: 200px;
   height: 100vh; /* 100% chiều cao màn hình */
   background: #99FFFF;
-  padding: 10px;
+  padding: 15px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   z-index: 10;
 
