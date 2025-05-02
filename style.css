@@ -20,7 +20,7 @@ body {
 }
 .banner {
   background: linear-gradient(to bottom, #87CEFA 0%, #0099FF 100%);
-  height: 200px;
+  height: 400px;
   width: 800px;
   margin: 1px;
   padding: 5px;
