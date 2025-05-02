@@ -61,17 +61,15 @@ body {
 
 /*head*/
 .sidebar {
-  top: 20px;             /* Cách đỉnh trang 10px */
+ position: fixed;
+  top: 0;
   left: 0;
   width: 210px;
+  height: 100vh; /* 100% chiều cao màn hình */
   background: #99FFFF;
   padding: 10px;
-  padding-bottom: 800px;
-  border: 1px solid #ccc;
-  height: calc(100% - 20px); /* Tính chiều cao trừ khoảng cách top và bottom */
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  z-index: 10;           /* Đảm bảo không bị che */
-  margin-top: 20px;
+  z-index: 10;
 
 }
 .sidebar a {
