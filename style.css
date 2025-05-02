@@ -44,11 +44,10 @@ body {
   background: #99FFFF;
   padding: 10px;
   padding-bottom: 20px;
-  border-right: 1px solid #ccc;
+  border: 1px solid #ccc;
   height: calc(100% - 20px); /* Tính chiều cao trừ khoảng cách top và bottom */
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   z-index: 10;           /* Đảm bảo không bị che */
-  overflow-y: auto;      /* Cuộn nếu nội dung dài */
   margin-top: 20px;
 
 }
