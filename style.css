@@ -64,10 +64,9 @@ body {
   top: 20px;             /* Cách đỉnh trang 10px */
   left: 0;
   width: 210px;
-  height: 1000px;
   background: #99FFFF;
   padding: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 800px;
   border: 1px solid #ccc;
   height: calc(100% - 20px); /* Tính chiều cao trừ khoảng cách top và bottom */
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
