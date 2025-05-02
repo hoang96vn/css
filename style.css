@@ -37,7 +37,6 @@ body {
   object-fit: contain; 
 }
 .sidebar {
-  position: fixed;       /* Giữ cố định khi cuộn trang */
   top: 20px;             /* Cách đỉnh trang 10px */
   left: 0;
   width: 210px;
