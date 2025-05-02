@@ -1,39 +1,32 @@
-/* style.css */
+/* Font từ Google */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Reset cơ bản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #F6F9FC;
   color: #333;
-  margin: 0;
 }
 
+/* Header với logo + tiêu đề */
 .header {
   background-color: white;
-  padding: 15px 20px;
   border-bottom: 1px solid #ddd;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header .logo {
-  font-size: 20px;
-  font-weight: bold;
-  color: #8C30F5;
-}
-
-.banner {
-  background: linear-gradient(to right, #00C4CC, #8C30F5);
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 18px;
-}
-.header {
-  display: flex;
-  align-items: center;
   padding: 10px 20px;
-  background-color: white;
-  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 
 .logo-img {
@@ -45,4 +38,102 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: #8C30F5;
+}
+
+/* Banner kiểu Canva */
+.banner {
+  background: linear-gradient(to right, #00C4CC, #8C30F5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Sidebar menu */
+.sidebar {
+  width: 200px;
+  background-color: #EAF6FF;
+  padding: 20px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar a {
+  display: block;
+  background-color: #DFF3FF;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #BCE6FF;
+}
+
+/* Nội dung chính */
+.main-content {
+  margin-left: 220px;
+  padding: 30px;
+}
+
+/* Trái tim bay */
+.heart {
+  position: fixed;
+  top: 100vh;
+  animation: fly 5s linear forwards;
+  pointer-events: none;
+}
+
+@keyframes fly {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-120vh) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Popup tỏ tình */
+#popup-love {
+  display: none;
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: pink;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  animation: pop 0.5s ease-out;
+}
+
+@keyframes pop {
+  from { transform: scale(0.5) translate(-50%, -50%); opacity: 0; }
+  to { transform: scale(1) translate(-50%, -50%); opacity: 1; }
+}
+
+/* Nút */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #8C30F5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #6e24c3;
 }
