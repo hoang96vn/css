@@ -61,6 +61,18 @@ body {
   border-right: 1px solid #ccc;
   height: calc(100% - 100px);
 }
+.sidebar a {
+  display: block;              /* xuống dòng */
+  padding: 8px 12px;           /* khoảng cách xung quanh text */
+  border-bottom: 1px solid #ccc; /* kẻ dòng ngang */
+  text-decoration: none;
+  color: #333;
+}
+
+/* Bỏ đường kẻ cho link cuối nếu muốn */
+.sidebar a:last-child {
+  border-bottom: none;
+}
 .main-frame {
   margin-left: 220px;
   margin-top: 140px;
