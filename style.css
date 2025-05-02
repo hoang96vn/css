@@ -1,233 +1,136 @@
-/* Font từ Google */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
-/* Reset cơ bản */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* CSS cho toàn bộ giao diện tình yêu đẹp mắt */
 
 body {
+  margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #F6F9FC;
-  color: #333;
+  background: linear-gradient(to right, #ffeefc, #e0f7ff);
+  background-image: url('background.jpg'); /* Hình nền */
+  background-size: cover;
+  background-position: center;
 }
 
-/* Header với logo + tiêu đề */
-.header {
-  background-color: white;
-  border-bottom: 1px solid #ddd;
-  padding: 10px 20px;
+.banner {
+  background: #fff0f6;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: #d63384;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-}
-
-.logo-img {
-  height: 40px;
-  margin-right: 10px;
-}
-
-.logo-text {
-  font-size: 20px;
+  gap: 10px;
   font-weight: bold;
-  color: #8C30F5;
+  font-size: 20px;
 }
 
-
-/* Sidebar menu */
-.sidebar {
-  width: 200px;
-  background-color: #EAF6FF;
-  padding: 20px 10px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  border-right: 1px solid #ccc;
+.logo img {
+  height: 50px;
 }
 
-.sidebar a {
-  display: block;
-  background-color: #DFF3FF;
-  margin: 10px 0;
+.slide-banner {
+  background: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.slide-banner p {
+  display: inline-block;
   padding: 10px;
+  animation: slide 15s linear infinite;
+  font-weight: bold;
+  color: #e83e8c;
+}
+
+@keyframes slide {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.sidebanner {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  width: 200px;
+  background: #f3f3f3;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  height: calc(100% - 100px);
+}
+
+.main-frame {
+  margin-left: 220px;
+  padding: 20px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+footer {
+  background: #fff0f6;
+  text-align: center;
+  padding: 10px;
+  color: #6f42c1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.button-group {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.button-group button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
   border-radius: 8px;
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  cursor: pointer;
   transition: background 0.3s;
 }
 
-.sidebar a:hover {
-  background-color: #BCE6FF;
+.button-group .yes {
+  background-color: #28a745;
+  color: white;
 }
 
-/* Nội dung chính */
-.main-content {
-  margin-left: 220px;
-  padding: 30px;
+.button-group .no {
+  background-color: #dc3545;
+  color: white;
 }
 
-/* Trái tim bay */
 .heart {
   position: fixed;
-  top: 100vh;
-  animation: fly 5s linear forwards;
+  width: 20px;
+  height: 20px;
+  background-image: url('heart.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: float 6s linear infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-100vh); opacity: 0; }
+}
+
+.cursor-glitter {
   pointer-events: none;
-}
-
-@keyframes fly {
-  0% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-120vh) scale(1.5);
-    opacity: 0;
-  }
-}
-
-/* Popup tỏ tình */
-#popup-love {
-  display: none;
   position: fixed;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  background: pink;
-  padding: 20px;
-  font-size: 24px;
-  border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
-  animation: pop 0.5s ease-out;
+  width: 8px;
+  height: 8px;
+  background: gold;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: glitter-fall 1s linear forwards;
 }
 
-@keyframes pop {
-  from { transform: scale(0.5) translate(-50%, -50%); opacity: 0; }
-  to { transform: scale(1) translate(-50%, -50%); opacity: 1; }
-}
-
-/* Nút */
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  margin: 10px;
-  cursor: pointer;
-  background-color: #8C30F5;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #6e24c3;
-}
-/* CSS cho thanh banner */
-.banner {
-  background: linear-gradient(to right, #00C4CC, #8C30F5);
-  color: white;
-  text-align: center;
-  padding: 15px 0;
-  font-size: 20px;
-  font-weight: bold;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  position: relative;
-}
-
-/* Hiệu ứng hover khi rê chuột vào banner */
-.banner:hover {
-  background: linear-gradient(to right, #8C30F5, #00C4CC);
-}
-slide-banner {
-  position: relative;
-  width: 100%;
-  max-width: 800px;    /* bạn có thể điều chỉnh */
-  margin: 20px auto;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.slide-banner .slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.slide-banner .slide {
-  min-width: 100%;
-  box-sizing: border-box;
-}
-
-.slide-banner .slide img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-/* nút điều hướng */
-.slide-banner .prev,
-.slide-banner .next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0,0,0,0.3);
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-.slide-banner .prev { left: 10px; }
-.slide-banner .next { right: 10px; }
-/* Thanh bên trái (Sidebar) */
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 250px;
-  height: 100%;
-  background-color: #2C3E50; /* Màu nền của thanh bên trái */
-  color: white;
-  padding-top: 20px;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-  font-family: 'Arial', sans-serif;
-}
-
-/* Liên kết trong thanh bên trái */
-.sidebar a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  padding: 15px;
-  margin: 10px 0;
-  font-size: 18px;
-  transition: background 0.3s;
-  border-radius: 5px;
-}
-
-/* Khi rê chuột vào các liên kết */
-.sidebar a:hover {
-  background-color: #1ABC9C;
-}
-
-/* Logo hoặc Tiêu đề ở trên thanh bên trái */
-.sidebar .logo {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-/* Đảm bảo nội dung chính không bị che khuất */
-.main-content {
-  margin-left: 270px; /* Để có khoảng trống cho thanh bên trái */
-  padding: 20px;
+@keyframes glitter-fall {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(40px); opacity: 0; }
 }
