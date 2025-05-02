@@ -1,0 +1,30 @@
+/* style.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F6F9FC;
+  color: #333;
+  margin: 0;
+}
+
+.header {
+  background-color: white;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #8C30F5;
+}
+
+.banner {
+  background: linear-gradient(to right, #00C4CC, #8C30F5);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+}
