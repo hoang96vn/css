@@ -12,7 +12,8 @@ body {
 .banner {
   background: linear-gradient(to bottom, #87CEFA 0%, #0099FF 100%);
   height: auto;
-  width: 200px;
+  width: auto;
+  margin: 10px;
   padding: 10px;
   text-align: center;
   font-size: 15px;
