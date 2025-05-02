@@ -50,7 +50,7 @@ body {
   100% { transform: translateX(-100%); }
 }
 
-.sidebanner {
+.sidebar {
   position: fixed;
   left: 0;
   top: 100px;
