@@ -29,8 +29,8 @@ body {
 }
 
 .logo img {
-  height: 100px;
-  margin-left: -10px; /* đẩy sát sidebar hơn nếu cần */
+  height: 150px;
+
 }
 
 .slide-banner {
