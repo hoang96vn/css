@@ -10,7 +10,6 @@ body {
 }
 
 .banner {
-  position: fixed; 
   background: linear-gradient(to bottom, #87CEFA 0%, #0099FF 100%);
   height: auto;
   width: 200px;
