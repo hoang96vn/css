@@ -187,3 +187,47 @@ slide-banner {
 }
 .slide-banner .prev { left: 10px; }
 .slide-banner .next { right: 10px; }
+/* Thanh bên trái (Sidebar) */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #2C3E50; /* Màu nền của thanh bên trái */
+  color: white;
+  padding-top: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Liên kết trong thanh bên trái */
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 18px;
+  transition: background 0.3s;
+  border-radius: 5px;
+}
+
+/* Khi rê chuột vào các liên kết */
+.sidebar a:hover {
+  background-color: #1ABC9C;
+}
+
+/* Logo hoặc Tiêu đề ở trên thanh bên trái */
+.sidebar .logo {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Đảm bảo nội dung chính không bị che khuất */
+.main-content {
+  margin-left: 270px; /* Để có khoảng trống cho thanh bên trái */
+  padding: 20px;
+}
