@@ -40,7 +40,7 @@ position: fixed;
   top: 20px;             /* Cách đỉnh trang 10px */
   left: 0;
   width: 200px;
-  background: #00CCFF;
+  background: #99FFFF;
   padding: 10px;
   padding-bottom: 20px;
   border-right: 1px solid #ccc;
@@ -59,7 +59,7 @@ position: fixed;
   border-radius: 5px; 
   text-decoration: none;
   color: #333;
-   background: linear-gradient(to bottom, #6633FF 0%, #FFFFFF 100%);
+   background: linear-gradient(to bottom, #33CCFF 0%, #FFFFFF 100%);
 }
 
 /* Bỏ đường kẻ cho link cuối nếu muốn */
