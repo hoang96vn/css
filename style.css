@@ -40,14 +40,6 @@ body {
   color: #8C30F5;
 }
 
-/* Banner kiểu Canva */
-.banner {
-  background: linear-gradient(to right, #00C4CC, #8C30F5);
-  color: white;
-  text-align: center;
-  padding: 10px;
-  font-size: 18px;
-}
 
 /* Sidebar menu */
 .sidebar {
@@ -136,4 +128,21 @@ button {
 
 button:hover {
   background-color: #6e24c3;
+}
+/* CSS cho thanh banner */
+.banner {
+  background: linear-gradient(to right, #00C4CC, #8C30F5);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Hiệu ứng hover khi rê chuột vào banner */
+.banner:hover {
+  background: linear-gradient(to right, #8C30F5, #00C4CC);
 }
