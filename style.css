@@ -35,8 +35,6 @@ body {
   width: 100%;
   height: auto;      /* giữ tỉ lệ gốc của hình */
   object-fit: contain; 
-  background-image: url('https://hoang96vn.github.io/hoang/Logo.jpg');
-   background-size: cover;
 }
 .sidebar {
   position: fixed;       /* Giữ cố định khi cuộn trang */
