@@ -31,7 +31,21 @@ body {
   margin-top: 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+.excel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cột bằng nhau */
+  gap: 10px; /* khoảng cách giữa các ô */
+  padding: 20px;
+}
 
+.cell {
+  background: #f0f8ff;
+  border: 1px solid #999;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
 .logo {
   top: 10px;
   align-items: center;
