@@ -24,8 +24,7 @@ body {
 }
 
 .logo {
-  top: 50px;
-  display: flex;
+  top: 20px;
   align-items: center;
   gap: 10px;
    border: 1px solid #000000;
