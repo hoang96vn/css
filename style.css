@@ -164,11 +164,6 @@ footer {
   animation: glitter-fall 1s linear forwards;
 }
 
-@keyframes glitter-fall {
-  0% { transform: translateY(0); opacity: 1; }
-  100% { transform: translateY(40px); opacity: 0; }
-}
-
 .main-content {
   margin-left: 220px; /* Dời sang phải tránh sidebar (nếu sidebar rộng 200px + padding) */
   margin-top: 5px;  /* Dời xuống tránh banner (nếu banner cao khoảng 100px) */
