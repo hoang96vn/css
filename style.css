@@ -33,7 +33,7 @@ body {
 
 .logo img {
   width: 200px;
-  height: auto;      /* giữ tỉ lệ gốc của hình */
+  height: 200px;      /* giữ tỉ lệ gốc của hình */
   object-fit: contain; 
 }
 .sidebar {
