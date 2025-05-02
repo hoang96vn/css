@@ -21,14 +21,14 @@ body {
 }
 
 .logo {
+  top: 50px;
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .logo img {
+  padding: 5px;
   height: 200px;
   width: 200px;
 position: fixed; 
@@ -50,6 +50,7 @@ position: fixed;
 
 }
 .sidebar a {
+  top: 220px;
   display: block;              /* xuống dòng */
   padding: 8px 12px; /* khoảng cách xung quanh text */
   border: 1px solid #000000;
