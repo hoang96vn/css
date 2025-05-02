@@ -152,11 +152,6 @@ footer {
   display: flex;
   align-items: center;
   padding: 2px;
-  background: linear-gradient(to right, #e0f7ff, #ffffff);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
    border: 1px solid;
 }
 .main-content {
