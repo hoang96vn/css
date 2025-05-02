@@ -148,7 +148,6 @@ footer {
   100% { transform: translateY(40px); opacity: 0; }
 }
 .header {
-  display: flex;
   align-items: center;
   padding: 2px;
    border: 1px solid;
