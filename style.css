@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background: linear-gradient(to right, #ffeefc, #e0f7ff);
-  background-image: url('background.jpg'); /* Hình nền */
+  background-image: url('https://hoang96vn.github.io/hoang/background.jpg'); /* Hình nền */
   background-size: cover;
   background-position: center;
 }
