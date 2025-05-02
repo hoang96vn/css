@@ -146,3 +146,44 @@ button:hover {
 .banner:hover {
   background: linear-gradient(to right, #8C30F5, #00C4CC);
 }
+slide-banner {
+  position: relative;
+  width: 100%;
+  max-width: 800px;    /* bạn có thể điều chỉnh */
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.slide-banner .slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-banner .slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide-banner .slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* nút điều hướng */
+.slide-banner .prev,
+.slide-banner .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.3);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.slide-banner .prev { left: 10px; }
+.slide-banner .next { right: 10px; }
