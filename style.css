@@ -201,6 +201,7 @@ button {
     }
     #navbar {
   background: #F8D8DF;
+      height: 140px;
   padding: 10px;
   top: 0;
   left: 0; right: 0;
