@@ -94,7 +94,7 @@ body {
 }
 
 
-footer {
+.footer {
   background: linear-gradient(to bottom, #87CEFA 0%, #0099FF 100%);
   text-align: center;
   padding: 10px;
