@@ -95,14 +95,12 @@ body {
 
 
 footer {
-  background: linear-gradient(to bottom, #87CEFA 0%, #0099FF 100%);
+  background: linear-gradient(to bottom, #87CEFA 0%, #FFFFFF 100%);
   text-align: center;
   padding: 10px;
-  position: fixed;
   left: 220px; /* tránh sidebar */
   width: calc(100% - 220px);
   bottom: 0;
-  min-height: 40px;
   z-index: 10;
 }
 .button-group {
