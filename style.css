@@ -216,6 +216,7 @@ button {
 #navbar button {
   background: white;
   border: none;
+  align-items: center;  
   padding: 8px 16px;
   border-radius: 10px;
   font-weight: bold;
