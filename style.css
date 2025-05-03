@@ -104,7 +104,6 @@ footer {
   background: linear-gradient(to bottom, #87CEFA, #00BFFF);
   text-align: center;
   padding: 10px;
-  color: #6f42c1;
   position: fixed;
   margin-left: 220px;
   width: 100%;
@@ -217,7 +216,7 @@ button {
   background: white;
   border: none;
   align-items: center;  
-  padding: 8px 16px;
+  padding: 8px;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
