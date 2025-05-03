@@ -161,8 +161,8 @@ footer {
 }
 
 .main-content {
-  margin-left: 210px; /* Dời sang phải tránh sidebar (nếu sidebar rộng 200px + padding) */
-  margin-top: 5px;  /* Dời xuống tránh banner (nếu banner cao khoảng 100px) */
+  margin-left: 220px; /* Dời sang phải tránh sidebar (nếu sidebar rộng 200px + padding) */
+  margin-top: 2px;  /* Dời xuống tránh banner (nếu banner cao khoảng 100px) */
   padding: 20px;
   background: #87CEFA;
   border-radius: 1px;
