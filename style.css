@@ -46,7 +46,7 @@ body {
 .logo {
    border: 1px solid #000000;
   background: #FAF0E6;
- 
+ height: 200px;
 }
 
 .logo img {
