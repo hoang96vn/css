@@ -278,32 +278,34 @@ button {
   padding: 20px;
   border: 3px solid skyblue;
   border-radius: 10px;
-  position: relative;
   background-color: #e0f7ff;
-  overflow: hidden;
+  position: relative;
+  overflow: hidden; /* Quan trọng để giới hạn nội dung bên trong */
 }
 
 .marquee-wrapper {
-  position: absolute;
-  bottom: 0; /* Nằm ở đáy của div .box */
-  left: 0;
   width: 100%;
-  background: white;
+  height: 30px;
   overflow: hidden;
-  border-top: 1px solid #ccc;
+  position: relative;
+  background: white;
+  margin-top: 10px;
 }
 
 .marquee-text {
-  display: inline-block;
-  padding-left: 100%;
+  position: absolute;
   white-space: nowrap;
-  animation: scroll-left 10s linear infinite;
-  font-size: 1.2rem;
+  animation: scroll 10s linear infinite;
   color: deeppink;
   font-weight: bold;
+  font-size: 1rem;
 }
 
-@keyframes scroll-left {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+@keyframes scroll {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -100%;
+  }
 }
