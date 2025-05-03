@@ -275,7 +275,7 @@ button {
     }
 .box {
   width: 100%;
-  padding: 2px;
+  padding: 10px;
   border: 2px solid skyblue;
   border-radius: 6px;
   background-color: #e0f7ff;
