@@ -125,12 +125,11 @@ footer {
 }
 
 .button-group .yes {
-  background-color: #28a745;
-  color: white;
+  background-color: #FF69B4
 }
 
 .button-group .no {
-  background-color: #dc3545;
+  background-color: #FF69B4;
   color: white;
 }
 
@@ -161,9 +160,9 @@ footer {
 }
 
 .main-content {
-  margin-left: 230px; /* Dời sang phải tránh sidebar (nếu sidebar rộng 200px + padding) */
+  margin-left: 220px; /* Dời sang phải tránh sidebar (nếu sidebar rộng 200px + padding) */
   margin-top: 2px;  /* Dời xuống tránh banner (nếu banner cao khoảng 100px) */
-  padding: 20px;
+  padding: 10px;
   background: #87CEFA;
   border-radius: 1px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
