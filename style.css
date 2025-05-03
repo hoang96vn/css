@@ -101,7 +101,7 @@ body {
 }
 
 footer {
-  background: linear-gradient(to bottom, #87CEFA, #00BFFF);
+  background: linear-gradient(to bottom, #87CEFA 0%, #0099FF 100%);
   text-align: center;
   padding: 10px;
   position: fixed;
