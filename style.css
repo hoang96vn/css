@@ -99,10 +99,11 @@ footer {
   text-align: center;
   padding: 10px;
   position: fixed;
-  left: 220px; /* đẩy footer sang phải để tránh sidebar */
-  width: calc(100% - 220px); /* chiếm phần còn lại của màn hình */
+  left: 220px; /* tránh sidebar */
+  width: calc(100% - 220px);
   bottom: 0;
-  overflow: hidden;
+  min-height: 40px;
+  z-index: 10;
 }
 .button-group {
   margin: 20px 0;
