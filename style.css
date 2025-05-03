@@ -200,7 +200,7 @@ button {
     }
     #navbar {
   background: #F8D8DF;
-      height: 35px;
+      height: 40px;
   padding: 5px;
   top: 0;
   left: 0; right: 0;
@@ -213,10 +213,10 @@ button {
 
 #navbar button {
   background: white;
-  top: 2px;
+  top: 5px;
   border: none;
   align-items: center;  
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
