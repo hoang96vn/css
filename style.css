@@ -172,8 +172,8 @@ footer {
   z-index: 1;
 }
 button {
-      padding: 10px 20px;
-      font-size: 16px;
+      padding: 10px;
+      font-size: 10px;
       margin: 10px;
       cursor: pointer;
       transition: opacity 0.5s ease;
@@ -201,7 +201,6 @@ button {
     #navbar {
   background: rgba(255,255,255,0.9);
   padding: 10px;
-  position: fixed;
   top: 0;
   left: 0; right: 0;
   display: flex;
