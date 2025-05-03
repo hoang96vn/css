@@ -38,15 +38,12 @@ body {
 }
 
 .cell {
-  background: #f0f8ff;
-  border: 1px solid #999;
   padding: 5px;
   text-align: center;
   font-weight: bold;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 .logo {
-  gap: 2px;
    border: 1px solid #000000;
   background: #FAF0E6;
  
@@ -62,12 +59,12 @@ body {
 /*head*/
 .sidebar {
  position: fixed;
-  margin-top: 5px;
+  margin-top: 2px;
   left: 0;
   width: 200px;
   height: 100vh; /* 100% chiều cao màn hình */
   background: #87CEFA;
-  padding: 15px;
+  padding: 5px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   z-index: 10;
 
@@ -164,7 +161,7 @@ footer {
 }
 
 .main-content {
-  margin-left: 250px; /* Dời sang phải tránh sidebar (nếu sidebar rộng 200px + padding) */
+  margin-left: 240px; /* Dời sang phải tránh sidebar (nếu sidebar rộng 200px + padding) */
   margin-top: 5px;  /* Dời xuống tránh banner (nếu banner cao khoảng 100px) */
   padding: 20px;
   background: #87CEFA;
