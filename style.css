@@ -71,7 +71,7 @@ body {
 }
 .sidebar a {
   display: block;
-  padding: 8px 12px; /* khoảng cách xung quanh text */
+  padding: 8px; /* khoảng cách xung quanh text */
   border: 1px solid #000000;
   border-radius: 5px; 
   text-decoration: none;
