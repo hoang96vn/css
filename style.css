@@ -201,21 +201,22 @@ button {
     #navbar {
   background: #F8D8DF;
       height: 35px;
-  padding: 10px;
+  padding: 5px;
   top: 0;
   left: 0; right: 0;
   display: flex;
       flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   backdrop-filter: blur(5px);
 }
 
 #navbar button {
   background: white;
+  top: 2px;
   border: none;
   align-items: center;  
-  padding: 8px;
+  padding: 5px;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
