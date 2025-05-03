@@ -102,6 +102,7 @@ footer {
   left: 220px; /* đẩy footer sang phải để tránh sidebar */
   width: calc(100% - 220px); /* chiếm phần còn lại của màn hình */
   bottom: 0;
+  overflow: hidden;
 }
 .button-group {
   margin: 20px 0;
