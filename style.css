@@ -88,17 +88,11 @@ body {
   margin-left: 220px;
   margin-top: 140px;
   padding: 30px;
-  background: rgba(255,255,255,0.9);
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  background: rgba(255,255,255,0.85);
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
-.main-frame {
-  margin-left: 220px;
-  padding: 20px;
-  background: rgba(255,255,255,0.8);
-  border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
+
 
 footer {
   background: linear-gradient(to bottom, #87CEFA 0%, #0099FF 100%);
