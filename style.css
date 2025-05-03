@@ -299,6 +299,8 @@ button {
   color: deeppink;
   font-weight: bold;
   font-size: 1rem;
+   top: 50%;                 /* Căn theo giữa chiều cao */
+  transform: translateY(-50%); /* Dịch ngược lại 50% để canh giữa chính xác */
 }
 
 @keyframes scroll {
