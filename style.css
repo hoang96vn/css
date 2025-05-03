@@ -294,7 +294,9 @@ button {
    top: 50%;                 /* Căn theo giữa chiều cao */
   transform: translateY(-50%); /* Dịch ngược lại 50% để canh giữa chính xác */
 }
-
+.main-content, .main-frame {
+  padding-bottom: 60px; /* phòng trừ footer cao 40px */
+}
 @keyframes scroll {
   from {
     left: 100%;
