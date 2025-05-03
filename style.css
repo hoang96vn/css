@@ -275,7 +275,7 @@ button {
       background-color: lightgreen;
     }
 .box {
-  width: 100%;
+  width: 80%;
   height: 20px;
   padding: 10px;
   border: 2px solid skyblue;
@@ -288,7 +288,7 @@ button {
 }
 
 .marquee-wrapper {
-  width: 100%;
+  width: 80%;
   height: 10px;
   overflow: hidden;
   position: relative;
