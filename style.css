@@ -210,7 +210,7 @@ button {
 
 #navbar button {
   background: white;
-
+margin-bottom: 10px;
   border: none;
   align-items: center;  
   padding: 10px;
