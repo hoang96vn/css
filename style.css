@@ -98,7 +98,7 @@ footer {
   background: linear-gradient(to bottom, #87CEFA 0%, #FFFFFF 100%);
   text-align: center;
   padding: 10px;
-  left: 220px; /* tránh sidebar */
+  margin-left: 220px; /* tránh sidebar */
   width: calc(100% - 220px);
   bottom: 0;
   z-index: 10;
