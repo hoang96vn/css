@@ -99,7 +99,7 @@ footer {
   text-align: center;
   padding: 10px;
   margin-left: 220px; /* tránh sidebar */
-  width: calc(100% - 220px);
+  width: 100%;
   bottom: 0;
   z-index: 10;
 }
