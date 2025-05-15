@@ -154,16 +154,11 @@ left: 180px; /* tránh sidebar */
 }
 
 .main-content {
-  margin-left: 220px; /* Dời sang phải tránh sidebar (nếu sidebar rộng 200px + padding) */
-  margin-top: 2px;  /* Dời xuống tránh banner (nếu banner cao khoảng 100px) */
-  padding: 10px;
-  background: #87CEFA;
-  border-radius: 1px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
- height: auto;
-  width: 80%;
-    flex: 1;
-  z-index: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: linear-gradient(to bottom, #c7f0cb, #fff);
 }
 button {
   padding: 10px 20px;
