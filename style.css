@@ -66,29 +66,38 @@ body {
 
 /*head*/
 .sidebar {
-  border: 1px;
-  border-color: blue;
   position: fixed;
   top: 0;
   left: 0;
   width: 180px;
   height: 100vh;
-  background: #87CEFA;
-  padding: 5px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  background: linear-gradient(to bottom, #87CEFA, #B0E0E6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
 }
 
-}
 .sidebar a {
-  margin-top: 10px;
   display: block;
-  padding: 8px; /* khoảng cách xung quanh text */
-  border: 1px solid blue;
-  border-radius: 5px; 
+  width: 100%;
+  text-align: center;
+  margin: 5px 0;
+  padding: 10px 5px;
+  border: 2px solid #0066cc;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #33CCFF 0%, #FFFFFF 100%);
   text-decoration: none;
-  color: #333;
-   background: linear-gradient(to bottom, #33CCFF 0%, #FFFFFF 100%);
+  color: #003366;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.sidebar a:hover {
+  background: #00BFFF;
+  color: white;
+  transform: scale(1.05);
 }
 
 /* Bỏ đường kẻ cho link cuối nếu muốn */
