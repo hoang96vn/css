@@ -47,12 +47,12 @@ body {
 .logo {
    border: 1px solid #000000;
   background: #FAF0E6;
- height: 200px;
+ height: 180px;
 }
 
 .logo img {
-  width: 200px;
-  height: auto;      /* giữ tỉ lệ gốc của hình */
+  width: 180px;
+  height: 180px;      /* giữ tỉ lệ gốc của hình */
   object-fit: contain; 
    z-index: 1000;
 }
