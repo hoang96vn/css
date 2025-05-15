@@ -64,7 +64,6 @@ body {
   z-index: 1;
 }
 
-/*head*/
 .sidebar {
   position: fixed;
   top: 0;
@@ -77,24 +76,49 @@ body {
   flex-direction: column;
   align-items: center;
   box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 
-.sidebar a {
+/* LOGO */
+.sidebar .logo {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar .logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* MENU */
+.sidebar .menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar .menu a {
   display: block;
   width: 100%;
-  text-align: center;
-  margin: 5px 0;
   padding: 10px 5px;
+  text-align: center;
+  background: linear-gradient(to bottom, #33CCFF 0%, #FFFFFF 100%);
   border: 2px solid #0066cc;
   border-radius: 8px;
-  background: linear-gradient(to bottom, #33CCFF 0%, #FFFFFF 100%);
+  font-weight: bold;
   text-decoration: none;
   color: #003366;
-  font-weight: bold;
-  transition: background 0.3s, transform 0.2s;
+  transition: all 0.2s ease;
 }
 
-.sidebar a:hover {
+.sidebar .menu a:hover {
   background: #00BFFF;
   color: white;
   transform: scale(1.05);
